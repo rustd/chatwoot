@@ -18,6 +18,7 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
+      - run: cd docker 
       - run: docker build .
 
 # Orchestrate jobs using workflows
