@@ -8,7 +8,6 @@ name: Publish Chatwoot CE docker images
 on:
   push:
     branches:
-      - develop
       - master
     tags:
       - v*
