@@ -27,4 +27,5 @@ jobs:
       - uses: depot/build-push-action@v1
         with:
           project: cnqrg8qk7c
-          context: docker/Dockerfile
+          context: .
+          file: docker/Dockerfile
