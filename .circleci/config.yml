@@ -18,7 +18,7 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
-      - run: docker build docker/Docker
+      - run: docker build .
 
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
